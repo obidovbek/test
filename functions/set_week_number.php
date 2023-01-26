@@ -22,7 +22,7 @@
     function do_action(){
         global $api_data, $result;
 
-        $folder = "../data/timetables/".$api_data->name."/gen_time_tables/";
+        $folder = "./data/timetables/".$api_data->name."/gen_time_tables/";
 		$filesNames=scandir($folder);
         $time_tables=array();
         $found = false;
@@ -52,7 +52,7 @@
     }
     function check_gtfr(){
         global $api_data;
-        $folder = "../data/users/".$api_data->user->token.".json";
+        $folder = "./data/users/".$api_data->user->token.".json";
         $user = json_decode(file_get_contents($folder));
         if(!empty($user) && $user->gtfr === $api_data->gt){
             return true;

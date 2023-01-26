@@ -9,7 +9,7 @@
 		$result;
 		$result->status = 0;
         
-        // $folder = "../data/timetables/".$api_data->name."/curriculum/";
+        // $folder = "./data/timetables/".$api_data->name."/curriculum/";
 		// $filesNames=scandir($folder);
 		// $result->streams = array();
 		// foreach ($filesNames as $key => $value_course) {
@@ -33,7 +33,7 @@
 		// }
 
         // $api_data = $api_data->index_data;
-        // $folder = "../data/timetables/".$api_data->name."/rooms/";
+        // $folder = "./data/timetables/".$api_data->name."/rooms/";
 		// $filesNames=scandir($folder);
 		// $result->rooms=array();
 		// foreach ($filesNames as $key => $value) {
@@ -46,7 +46,7 @@
 		// 	}
 		// }
 
-        // $folder = "../data/timetables/".$api_data->name."/groups/";
+        // $folder = "./data/timetables/".$api_data->name."/groups/";
 		// $filesNames=scandir($folder);
 		// $result->groups=array();
 		// foreach ($filesNames as $key => $value) {
@@ -60,7 +60,7 @@
 		// 	}
 		// }
 //----------------------------------------------------
-        $folder = "../data/timetables/".$api_data->name."/subjects/";
+        $folder = "./data/timetables/".$api_data->name."/subjects/";
 		$filesNames=scandir($folder);
 		$result->subjects=array();
 		foreach ($filesNames as $key => $value) {
@@ -74,7 +74,7 @@
 			}
 		}
 
-        $folder = "../data/timetables/".$api_data->name."/areas/";
+        $folder = "./data/timetables/".$api_data->name."/areas/";
 		$filesNames=scandir($folder);
 		$result->areas=array();
 		foreach ($filesNames as $key => $value) {
@@ -89,7 +89,7 @@
 		}
 
         $result->test = array();
-        $folder = "../data/timetables/".$api_data->name."/teachers/";
+        $folder = "./data/timetables/".$api_data->name."/teachers/";
 		$filesNames=scandir($folder);
 		$result->teachers;
 		foreach ($filesNames as $key => $value) {
@@ -106,7 +106,7 @@
 			}
 		}
 
-        $folder = "../data/timetables/".$api_data->name."/streams/";
+        $folder = "./data/timetables/".$api_data->name."/streams/";
 		$filesNames=scandir($folder);
 		$result->streams = array();
 		foreach ($filesNames as $key => $value_course) {
@@ -146,11 +146,11 @@
 		}
 //----------------------------------------------------
 
-        // $myfile = fopen("../data/timetables/2021-2022 Birinchi semestr/tmp_data.json", "w") or die("Unable to open file!");
+        // $myfile = fopen("./data/timetables/2021-2022 Birinchi semestr/tmp_data.json", "w") or die("Unable to open file!");
         // fwrite($myfile, gzencode(json_encode($result), 9));
         // fclose($myfile);
         
-        // $attachment_location = "../data/timetables/2021-2022 Birinchi semestr/rooms/AbIVBCghtWclQI.json";
+        // $attachment_location = "./data/timetables/2021-2022 Birinchi semestr/rooms/AbIVBCghtWclQI.json";
         // header($_SERVER["SERVER_PROTOCOL"] . " 200 OK");
         // header("Cache-Control: public"); // needed for internet explorer
         // header("Content-Type: application/json");
@@ -177,14 +177,14 @@
 	    }
 	    return $randomString;
 	}
-        // $folder = "../data/timetables/".$api_data->name."/curriculum/";
+        // $folder = "./data/timetables/".$api_data->name."/curriculum/";
         // if (!file_exists($folder)) { mkdir($folder, 0777, true); }
 		// foreach ($api_data->curriculum as $key_course => $value_course) {
-        //     $folder = "../data/timetables/".$api_data->name."/curriculum/".$key_course;
+        //     $folder = "./data/timetables/".$api_data->name."/curriculum/".$key_course;
         //     if (!file_exists($folder)) { mkdir($folder, 0777, true); }
 
         //     foreach ($value_course as $key_curriculum => $value_curriculum) {
-        //         $folder = "../data/timetables/".$api_data->name."/curriculum/".$key_course.'/';
+        //         $folder = "./data/timetables/".$api_data->name."/curriculum/".$key_course.'/';
 
         //         $id = generateRandomString(14);
         //         $myfile = fopen($folder.$id.".json", "w") or die("Unable to open file!");
@@ -193,15 +193,15 @@
 
         //     }
         // }
-        // $folder = "../data/timetables/".$api_data->name."/streams/";
+        // $folder = "./data/timetables/".$api_data->name."/streams/";
         // if (!file_exists($folder)) { mkdir($folder, 0777, true); }
 		// foreach ($api_data->streams as $key_course => $value_course) {
         //     // $id = $key;
-        //     $folder = "../data/timetables/".$api_data->name."/streams/".$key_course;
+        //     $folder = "./data/timetables/".$api_data->name."/streams/".$key_course;
         //     if (!file_exists($folder)) { mkdir($folder, 0777, true); }
 
         //     foreach ($value_course as $key_stream => $value_stream) {
-        //         $folder = "../data/timetables/".$api_data->name."/streams/".$key_course.'/'.$key_stream.'/';
+        //         $folder = "./data/timetables/".$api_data->name."/streams/".$key_course.'/'.$key_stream.'/';
         //         if (!file_exists($folder)) { mkdir($folder, 0777, true); }
 
         //         foreach ($value_stream as $key_stream_item => $value_stream_item) {
@@ -214,7 +214,7 @@
         //     }
         // }
 
-        // $folder = "../data/timetables/".$api_data->name."/teachers/";
+        // $folder = "./data/timetables/".$api_data->name."/teachers/";
         // if (!file_exists($folder)) { mkdir($folder, 0777, true); }
 		// foreach ($api_data->teachers as $key => $value) {
         //     $id = $key;
@@ -223,7 +223,7 @@
         //     fclose($myfile);
         // }
         
-        // $folder = "../data/timetables/".$api_data->name."/areas/";
+        // $folder = "./data/timetables/".$api_data->name."/areas/";
         // if (!file_exists($folder)) { mkdir($folder, 0777, true); }
 		// foreach ($api_data->areas as $key => $value) {
         //     $id = generateRandomString(14);
@@ -231,7 +231,7 @@
         //     fwrite($myfile, json_encode($value));
         //     fclose($myfile);
         // }        
-        // $folder = "../data/timetables/".$api_data->name."/groups/";
+        // $folder = "./data/timetables/".$api_data->name."/groups/";
         // if (!file_exists($folder)) { mkdir($folder, 0777, true); }
 		// foreach ($api_data->groups as $key => $value) {
         //     $id = generateRandomString(14);
@@ -239,7 +239,7 @@
         //     fwrite($myfile, json_encode($value));
         //     fclose($myfile);
         // }
-        // $folder = "../data/timetables/".$api_data->name."/rooms/";
+        // $folder = "./data/timetables/".$api_data->name."/rooms/";
         // if (!file_exists($folder)) { mkdir($folder, 0777, true); }
 		// foreach ($api_data->rooms as $key => $value) {
         //     $id = generateRandomString(14);

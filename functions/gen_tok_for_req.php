@@ -10,7 +10,7 @@
 
 		$result;
 		$result->status = 0;
-        $folder = "../data/users/".$api_data->user->token.".json";
+        $folder = "./data/users/".$api_data->user->token.".json";
         $user = json_decode(file_get_contents($folder));
         if(!empty($user)){
             $user->gtfr = generateRandomString(14);
@@ -23,7 +23,7 @@
             $result->req_answer = "Bunaqa foydalanuvchi yo'q";
         }
 
-        // $folder = "../data/".$api_data->name."/areas/";
+        // $folder = "./data/".$api_data->name."/areas/";
         // if (!file_exists($folder)) { mkdir($folder, 0777, true); }
         // $id = generateRandomString(14);
         // $myfile = fopen($folder.$id.".json", "w") or die("Unable to open file!");

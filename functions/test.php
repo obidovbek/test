@@ -9,7 +9,7 @@
 		$result;
 		$result->status = 0;
 
-        $folder = "../data/timetables/2021-2022 Birinchi semestr/curriculum/";
+        $folder = "./data/timetables/2021-2022 Birinchi semestr/curriculum/";
 		$filesNames=scandir($folder);
 		$result->streams = array();
 		foreach ($filesNames as $key => $value_course) {
@@ -33,7 +33,7 @@
 		}
            
         $api_data = $api_data->index_data;
-        $folder = "../data/timetables/2021-2022 Birinchi semestr/rooms/";
+        $folder = "./data/timetables/2021-2022 Birinchi semestr/rooms/";
 		$filesNames=scandir($folder);
 		$result->rooms=array();
 		foreach ($filesNames as $key => $value) {
@@ -49,7 +49,7 @@
 			}
 		}
 
-        $folder = "../data/timetables/2021-2022 Birinchi semestr/groups/";
+        $folder = "./data/timetables/2021-2022 Birinchi semestr/groups/";
 		$filesNames=scandir($folder);
 		$result->groups=array();
 		foreach ($filesNames as $key => $value) {
@@ -63,7 +63,7 @@
 			}
 		}
 
-        $folder = "../data/timetables/2021-2022 Birinchi semestr/subjects/";
+        $folder = "./data/timetables/2021-2022 Birinchi semestr/subjects/";
 		$filesNames=scandir($folder);
 		$result->subjects=array();
 		foreach ($filesNames as $key => $value) {
@@ -77,7 +77,7 @@
 			}
 		}
 
-        $folder = "../data/timetables/2021-2022 Birinchi semestr/areas/";
+        $folder = "./data/timetables/2021-2022 Birinchi semestr/areas/";
 		$filesNames=scandir($folder);
 		$result->areas=array();
 		foreach ($filesNames as $key => $value) {
@@ -91,7 +91,7 @@
 			}
 		}
 
-        $folder = "../data/timetables/2021-2022 Birinchi semestr/teachers/";
+        $folder = "./data/timetables/2021-2022 Birinchi semestr/teachers/";
 		$filesNames=scandir($folder);
 		$result->teachers;
 		foreach ($filesNames as $key => $value) {
@@ -111,7 +111,7 @@
 		}
         $result->test = array();
 
-        $folder = "../data/timetables/2021-2022 Birinchi semestr/streams/";
+        $folder = "./data/timetables/2021-2022 Birinchi semestr/streams/";
 		$filesNames=scandir($folder);
 		$result->streams = array();
 		foreach ($filesNames as $key => $value_course) {
@@ -150,7 +150,7 @@
 
 		}
         
-        // $myfile = fopen("../data/timetables/2021-2022 Birinchi semestr/tmp_data.json", "w") or die("Unable to open file!");
+        // $myfile = fopen("./data/timetables/2021-2022 Birinchi semestr/tmp_data.json", "w") or die("Unable to open file!");
         // fwrite($myfile, json_encode($result));
         // fclose($myfile);
 		// $result2;
