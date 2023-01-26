@@ -1,0 +1,332 @@
+{
+    "building": "texnopark ",
+    "roomNumber": "1",
+    "roomType": "practice",
+    "roomCapCurr": "30",
+    "roomCapOld": "",
+    "availab": [
+      {
+        "day": 1,
+        "pair": 2,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": true,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Akramov M",
+          "first_name": "Muxamadali ",
+          "last_name": "Akramov ",
+          "patrynomic": "Murodjon o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "UdOImAxiiI",
+          "file_name": "UdOImAxiiI.json",
+          "name": "Akramov Muxamadali Murodjon o‘g‘li"
+        }
+      },
+      {
+        "day": 1,
+        "pair": 3,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": false,
+        "numerator": true,
+        "teacherData": {
+          "short_name": "Akramov M",
+          "first_name": "Muxamadali ",
+          "last_name": "Akramov ",
+          "patrynomic": "Murodjon o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "UdOImAxiiI",
+          "file_name": "UdOImAxiiI.json",
+          "name": "Akramov Muxamadali Murodjon o‘g‘li"
+        }
+      },
+      {
+        "day": 1,
+        "pair": 3,
+        "scheduleType": 0,
+        "denominator": true,
+        "fullTime": false,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Rustamov M",
+          "first_name": "Muxammadazim ",
+          "last_name": "Rustamov ",
+          "patrynomic": "Akbaraliyevich",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "mcwnxYeXPi",
+          "file_name": "mcwnxYeXPi.json",
+          "name": "Rustamov Muxammadazim Akbaraliyevich"
+        }
+      },
+      {
+        "day": 2,
+        "pair": 1,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": true,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Akramov M",
+          "first_name": "Muxamadali ",
+          "last_name": "Akramov ",
+          "patrynomic": "Murodjon o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "UdOImAxiiI",
+          "file_name": "UdOImAxiiI.json",
+          "name": "Akramov Muxamadali Murodjon o‘g‘li"
+        }
+      },
+      {
+        "day": 2,
+        "pair": 2,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": false,
+        "numerator": true,
+        "teacherData": {
+          "short_name": "Akramov M",
+          "first_name": "Muxamadali ",
+          "last_name": "Akramov ",
+          "patrynomic": "Murodjon o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "UdOImAxiiI",
+          "file_name": "UdOImAxiiI.json",
+          "name": "Akramov Muxamadali Murodjon o‘g‘li"
+        }
+      },
+      {
+        "day": 2,
+        "pair": 2,
+        "scheduleType": 0,
+        "denominator": true,
+        "fullTime": false,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Turg‘unboyev T",
+          "first_name": "Temur",
+          "last_name": "Turg‘unboyev ",
+          "patrynomic": "To‘lqin o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "sVXcXTbthn",
+          "file_name": "sVXcXTbthn.json",
+          "name": "Turg‘unboyev Temur To‘lqin o‘g‘li"
+        }
+      },
+      {
+        "day": 2,
+        "pair": 3,
+        "scheduleType": 0,
+        "denominator": true,
+        "fullTime": false,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Rustamov M",
+          "first_name": "Muxammadazim ",
+          "last_name": "Rustamov ",
+          "patrynomic": "Akbaraliyevich",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "mcwnxYeXPi",
+          "file_name": "mcwnxYeXPi.json",
+          "name": "Rustamov Muxammadazim Akbaraliyevich"
+        }
+      },
+      {
+        "day": 3,
+        "pair": 3,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": true,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Turg‘unboyev T",
+          "first_name": "Temur",
+          "last_name": "Turg‘unboyev ",
+          "patrynomic": "To‘lqin o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "sVXcXTbthn",
+          "file_name": "sVXcXTbthn.json",
+          "name": "Turg‘unboyev Temur To‘lqin o‘g‘li"
+        }
+      },
+      {
+        "day": 4,
+        "pair": 1,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": true,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Madaminov B",
+          "first_name": "Baxrom ",
+          "last_name": "Madaminov ",
+          "patrynomic": "Mirodilovich",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "pZnZQauhqe",
+          "file_name": "pZnZQauhqe.json",
+          "name": "Madaminov Baxrom Mirodilovich"
+        }
+      },
+      {
+        "day": 4,
+        "pair": 2,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": true,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Turg‘unboyev T",
+          "first_name": "Temur",
+          "last_name": "Turg‘unboyev ",
+          "patrynomic": "To‘lqin o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "sVXcXTbthn",
+          "file_name": "sVXcXTbthn.json",
+          "name": "Turg‘unboyev Temur To‘lqin o‘g‘li"
+        }
+      },
+      {
+        "day": 4,
+        "pair": 3,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": false,
+        "numerator": true,
+        "teacherData": {
+          "short_name": "Turg‘unboyev T",
+          "first_name": "Temur",
+          "last_name": "Turg‘unboyev ",
+          "patrynomic": "To‘lqin o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "sVXcXTbthn",
+          "file_name": "sVXcXTbthn.json",
+          "name": "Turg‘unboyev Temur To‘lqin o‘g‘li"
+        }
+      },
+      {
+        "day": 5,
+        "pair": 1,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": true,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Turg‘unboyev T",
+          "first_name": "Temur",
+          "last_name": "Turg‘unboyev ",
+          "patrynomic": "To‘lqin o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "sVXcXTbthn",
+          "file_name": "sVXcXTbthn.json",
+          "name": "Turg‘unboyev Temur To‘lqin o‘g‘li"
+        }
+      },
+      {
+        "day": 5,
+        "pair": 2,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": true,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Akramov M",
+          "first_name": "Muxamadali ",
+          "last_name": "Akramov ",
+          "patrynomic": "Murodjon o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "UdOImAxiiI",
+          "file_name": "UdOImAxiiI.json",
+          "name": "Akramov Muxamadali Murodjon o‘g‘li"
+        }
+      },
+      {
+        "day": 5,
+        "pair": 3,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": false,
+        "numerator": true,
+        "teacherData": {
+          "short_name": "Akramov M",
+          "first_name": "Muxamadali ",
+          "last_name": "Akramov ",
+          "patrynomic": "Murodjon o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "UdOImAxiiI",
+          "file_name": "UdOImAxiiI.json",
+          "name": "Akramov Muxamadali Murodjon o‘g‘li"
+        }
+      },
+      {
+        "day": 5,
+        "pair": 3,
+        "scheduleType": 0,
+        "denominator": true,
+        "fullTime": false,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Turg‘unboyev T",
+          "first_name": "Temur",
+          "last_name": "Turg‘unboyev ",
+          "patrynomic": "To‘lqin o‘g‘li",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "sVXcXTbthn",
+          "file_name": "sVXcXTbthn.json",
+          "name": "Turg‘unboyev Temur To‘lqin o‘g‘li"
+        }
+      },
+      {
+        "day": 6,
+        "pair": 1,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": true,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Rustamov M",
+          "first_name": "Muxammadazim ",
+          "last_name": "Rustamov ",
+          "patrynomic": "Akbaraliyevich",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "mcwnxYeXPi",
+          "file_name": "mcwnxYeXPi.json",
+          "name": "Rustamov Muxammadazim Akbaraliyevich"
+        }
+      },
+      {
+        "day": 6,
+        "pair": 2,
+        "scheduleType": 0,
+        "denominator": false,
+        "fullTime": true,
+        "numerator": false,
+        "teacherData": {
+          "short_name": "Rustamov M",
+          "first_name": "Muxammadazim ",
+          "last_name": "Rustamov ",
+          "patrynomic": "Akbaraliyevich",
+          "faculty": "Mexanika - mashinasozlik",
+          "kafedra": "Mashinasozlik texnologiyasi va avtomatlashtirish",
+          "uid": "mcwnxYeXPi",
+          "file_name": "mcwnxYeXPi.json",
+          "name": "Rustamov Muxammadazim Akbaraliyevich"
+        }
+      }
+    ]
+  }
