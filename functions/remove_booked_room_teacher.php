@@ -15,8 +15,8 @@
             remove_from_room_availab();
             remove_from_teacher_availab();
             if($result->room_status && $result->teacher_status){
-                $room_folder = "./data/timetables/".$api_data->name."/rooms/".$data->room->file_name;
-                $teacher_folder = "./data/timetables/".$api_data->name."/teachers/".$data->teacherUid.".json";
+                $room_folder = "../data/timetables/".$api_data->name."/rooms/".$data->room->file_name;
+                $teacher_folder = "../data/timetables/".$api_data->name."/teachers/".$data->teacherUid.".json";
                 if(file_put_contents($room_folder, json_encode($result->room_data)) &&
                     file_put_contents($teacher_folder, json_encode($result->teacher_data))
                 ){
@@ -36,7 +36,7 @@
         $data = $api_data->data;
 
 
-        $folder = "./data/timetables/".$api_data->name."/teachers/".$data->teacherUid.".json";
+        $folder = "../data/timetables/".$api_data->name."/teachers/".$data->teacherUid.".json";
         $teacher = json_decode(file_get_contents($folder));
 
         $index = -1;
@@ -61,7 +61,7 @@
         $data = $api_data->data;
 
 
-        $folder = "./data/timetables/".$api_data->name."/rooms/".$data->room->file_name;
+        $folder = "../data/timetables/".$api_data->name."/rooms/".$data->room->file_name;
         $room = json_decode(file_get_contents($folder));
 
         $index = -1;
@@ -84,7 +84,7 @@
 
     function check_gtfr(){
         global $api_data;
-        $folder = "./data/users/".$api_data->user->token.".json";
+        $folder = "../data/users/".$api_data->user->token.".json";
         $user = json_decode(file_get_contents($folder));
         if(!empty($user) && $user->gtfr === $api_data->gt){
             return true;

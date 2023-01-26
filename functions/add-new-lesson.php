@@ -37,7 +37,7 @@
         global $api_data, $result;
 
         $data = $api_data->data;
-        $folder = "./data/timetables/".$api_data->name."/gen_time_tables/";
+        $folder = "../data/timetables/".$api_data->name."/gen_time_tables/";
         $selected = json_decode(file_get_contents($folder."selected.json"));
 
         $time_table = json_decode(file_get_contents($folder.$selected.".json"));
@@ -71,7 +71,7 @@
     function check_time_table(){
         global $api_data, $result;
         $exists = false;
-        $folder = "./data/timetables/".$api_data->name."/gen_time_tables/";
+        $folder = "../data/timetables/".$api_data->name."/gen_time_tables/";
         $selected = json_decode(file_get_contents($folder."selected.json"));
         $time_table = json_decode(file_get_contents($folder.$selected.".json"));
         
@@ -98,7 +98,7 @@
         global $api_data, $result;
         $exists = false;
 
-        $folder = "./data/timetables/".$api_data->name."/gen_time_tables/";
+        $folder = "../data/timetables/".$api_data->name."/gen_time_tables/";
 
         $selected = json_decode(file_get_contents($folder."selected.json"));
         $folder = $folder.$selected."/teachers/";
@@ -125,7 +125,7 @@
     function check_set_rooms(){
         global $api_data, $result;
         $exists = false;
-        $folder = "./data/timetables/".$api_data->name."/gen_time_tables/";
+        $folder = "../data/timetables/".$api_data->name."/gen_time_tables/";
 
         $selected = json_decode(file_get_contents($folder."selected.json"));
         $folder = $folder.$selected."/rooms/";
@@ -150,7 +150,7 @@
     }
     function check_gtfr(){
         global $api_data;
-        $folder = "./data/users/".$api_data->user->token.".json";
+        $folder = "../data/users/".$api_data->user->token.".json";
         $user = json_decode(file_get_contents($folder));
         if(!empty($user) && $user->gtfr === $api_data->gt){
             return true;
