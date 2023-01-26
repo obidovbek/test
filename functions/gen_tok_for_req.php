@@ -9,8 +9,8 @@
 
 
 		$result;
-		$result->status = 0;
-        $folder = "../data/users/".$api_data->user->token.".json";
+		$result->status = 1;
+        // $folder = "../data/users/".$api_data->user->token.".json";
         // $user = json_decode(file_get_contents($folder));
         // if(!empty($user)){
         //     $user->gtfr = generateRandomString(14);
