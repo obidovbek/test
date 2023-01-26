@@ -9,20 +9,19 @@
 
 
 		$result;
-		$result->status = 1;
-        // $folder = "../data/users/".$api_data->user->token.".json";
-        // $user = json_decode(file_get_contents($folder));
-        // if(!empty($user)){
-        //     $user->gtfr = generateRandomString(14);
-        //     if(file_put_contents($folder, json_encode($user))){
-        //         $result->status = 200;
-        //         $result->gt = $user->gtfr;
-        //     }
-        // }else{
-        //     $result->status = 199;
-        //     $result->req_answer = "Bunaqa foydalanuvchi yo'q";
-        // }
-		$result->status = 200;
+		$result->status = 0;
+        $folder = "../data/users/".$api_data->user->token.".json";
+        $user = json_decode(file_get_contents($folder));
+        if(!empty($user)){
+            $user->gtfr = generateRandomString(14);
+            if(file_put_contents($folder, json_encode($user))){
+                $result->status = 200;
+                $result->gt = $user->gtfr;
+            }
+        }else{
+            $result->status = 199;
+            $result->req_answer = "Bunaqa foydalanuvchi yo'q";
+        }
 
         // $folder = "../data/".$api_data->name."/areas/";
         // if (!file_exists($folder)) { mkdir($folder, 0777, true); }
